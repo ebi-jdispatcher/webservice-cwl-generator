@@ -1,6 +1,6 @@
 # Web Service Clients CWL Generator
 
-`cwlgenerator.py` allows auto-generation of Common Workflow Language (CWL) definitions for 
+`cwlgenerator.py` allows auto-generation of Common Workflow Language (CWL) definitions for
 Sample CLI Clients for
 [EMBL-EBI's Job Dispatcher Web Service Bioinformatics Tools](https://www.ebi.ac.uk/services).
 
@@ -57,8 +57,8 @@ Alternatively, use `--client <client_name>` to get only a selected client.
 python cwlgenerator.py python --client clustalo,ncbiblast
 ```
 
-CWL can also run the clients with Docker by using the Docker image provided in the 
-[webservice-clients](https://www.ebi.ac.uk/services) repository. We can generate CWL with Docker 
+CWL can also run the clients with Docker by using the Docker image provided in the
+[webservice-clients](https://www.ebi.ac.uk/services) repository. We can generate CWL with Docker
 dependency by passing the `--docker` flag.
 
 ```bash
@@ -69,8 +69,8 @@ python cwlgenerator.py python --client clustalo,ncbiblast --docker
 
 ### How to install cwltool
 
-You will need cwl-runner ([cwltool](https://github.com/common-workflow-language/cwltool)) to run CWL 
-descriptions. Official instructions on how to install cwltool are provided in 
+You will need cwl-runner ([cwltool](https://github.com/common-workflow-language/cwltool)) to run CWL
+descriptions. Official instructions on how to install cwltool are provided in
 https://github.com/common-workflow-language/cwltool
 
 ### Example using CWL with a Python client and Docker
@@ -81,13 +81,16 @@ An example test for Clustal Omega using the Python client:
 cwltool dist/clustalo.cwl --email <your@email.com> --sequence sp:wap_rat,sp:wap_mouse,sp:wap_pig
 ```
 
-
 ## Documentation
 
 More documentation about [EMBL-EBI Bioinformatics Web Services](https://www.ebi.ac.uk/seqdb/confluence/display/WEBSERVICES/EMBL-EBI+Web+Services)
-
 
 ## Contact and Support
 
 If you have any problems, suggestions or comments for our services please
 contact us via [EBI Support](https://www.ebi.ac.uk/support/index.php?query=WebServices).
+
+## License
+The European Bioinformatics Institute - [EMBL-EBI](https://www.ebi.ac.uk/), is an Intergovernmental Organization which, as part of the European Molecular Biology Laboratory family, focuses on research and services in bioinformatics.  
+
+Apache License 2.0. See [license](LICENSE) for details.
