@@ -4,9 +4,9 @@
 Sample CLI Clients for
 [EMBL-EBI's Job Dispatcher Web Service Bioinformatics Tools](https://www.ebi.ac.uk/services).
 
-CWL generated with this program are uploaded to the [webservice-cwl](https://github.com/ebi-wp/webservice-cwl)
+CWL generated with this program are uploaded to the [webservice-cwl](https://github.com/ebi-jdispatcher/webservice-cwl)
 repository. These CWL require the actual clients or the *webservice-clients* Docker image from
- [webservice-clients](https://github.com/ebi-wp/webservice-clients) in order to run the
+ [webservice-clients](https://github.com/ebi-jdispatcher/webservice-clients) in order to run the
 clients.
 
 ## How to use it
@@ -14,7 +14,7 @@ clients.
 Download the source code or clone the repository:
 
 ```bash
-git clone https://github.com/ebi-wp/webservice-cwl-generator.git
+git clone https://github.com/ebi-jdispatcher/webservice-cwl-generator.git
 ```
 
 Specially if you have no root access to your machine, you might need to
